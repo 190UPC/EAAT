@@ -13,7 +13,7 @@ from pytorch_msssim import ssim
 # ssim_metric = StructuralSimilarityIndexMeasure(data_range=1.0).cuda()
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, default='LCT')
+    parser.add_argument("--model", type=str, default='EAAT')
     parser.add_argument("--ckpt_path", type=str, default='checkpoint.pth.tar')
     parser.add_argument("--group", type=int, default=4)
     parser.add_argument("--sample_dir", type=str, default='sample')
