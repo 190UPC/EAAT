@@ -14,10 +14,10 @@ from pytorch_msssim import ssim
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default='LCT')
-    parser.add_argument("--ckpt_path", type=str, default='checkpoint/atlinefinal_204000_renamed_2.pth.tar')
+    parser.add_argument("--ckpt_path", type=str, default='checkpoint.pth.tar')
     parser.add_argument("--group", type=int, default=4)
     parser.add_argument("--sample_dir", type=str, default='sample')
-    parser.add_argument("--test_data_dir", type=str, default="D:\A_lunwen\experiment_result\LR\Sandstone")#carbo_test
+    parser.add_argument("--test_data_dir", type=str, default="LR\Sandstone")#carbo_test
     parser.add_argument("--scale", type=int, default=4)
     parser.add_argument("--shave", type=int, default=20)
     parser.add_argument("--num_gpu", type=int, default=1)
