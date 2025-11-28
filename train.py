@@ -28,10 +28,10 @@ def parse_args():
     parser.add_argument("--accumulation_steps", type=int, default=64)
 
     parser.add_argument("--max_steps", type=int, default=500000)
-    parser.add_argument("--decay", type=int, default=400000)#只爱去年是150000
+    parser.add_argument("--decay", type=int, default=400000)
     parser.add_argument("--start_step", type=int, default=0)
     parser.add_argument("--lr", type=float, default=0.001)
-    parser.add_argument("--clip", type=float, default=10.0)#之前是10.0
+    parser.add_argument("--clip", type=float, default=10.0)
     parser.add_argument("--loss_fn", type=str, choices=["MSE", "L1", "SmoothL1", 'L1_Charb'], default="L1")
     return parser.parse_args()
 
