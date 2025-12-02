@@ -2,15 +2,6 @@
 # EAAT-pytorch
 ## Dataset
 
-
-We use DeepRock2D dataset for training and testing. Here are the following steps to prepare datasets.
-
-Download DeepRock2D and unzip on dataset directory
-
-Run the preprocessing script:
-
-python petrof5.py
-
 ## Testing
 
 We provide the pretrained models in checkpoint directory.
